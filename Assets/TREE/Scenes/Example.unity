@@ -1,0 +1,2419 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 11
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_TemporalCoherenceThreshold: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 10
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 0
+    m_CompAOExponentDirect: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 1024
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 1
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVRFilteringMode: 0
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ShowResolutionOverlay: 1
+  m_LightingDataAsset: {fileID: 0}
+  m_UseShadowmask: 0
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &65754469
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1000013072333992, guid: bbccf7d608e1040f4b43f925adf9f180,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 65754470}
+  m_Layer: 0
+  m_Name: rotator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &65754470
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4000013603186918, guid: bbccf7d608e1040f4b43f925adf9f180,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 65754469}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1013255823}
+  - {fileID: 262259262}
+  m_Father: {fileID: 718484629}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &67188449
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 67188450}
+  m_Layer: 0
+  m_Name: '[To be converted]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &67188450
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 67188449}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.000011444092, y: -31.667332, z: 0.0000038146973}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 856920874}
+  - {fileID: 1963586003}
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &103455233
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 67188450}
+    m_Modifications:
+    - target: {fileID: 4000013918180872, guid: 7e98a9237b4c84cd480c49aa485c3ffa, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.000011444092
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013918180872, guid: 7e98a9237b4c84cd480c49aa485c3ffa, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 31.667332
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013918180872, guid: 7e98a9237b4c84cd480c49aa485c3ffa, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013918180872, guid: 7e98a9237b4c84cd480c49aa485c3ffa, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013918180872, guid: 7e98a9237b4c84cd480c49aa485c3ffa, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013918180872, guid: 7e98a9237b4c84cd480c49aa485c3ffa, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013918180872, guid: 7e98a9237b4c84cd480c49aa485c3ffa, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013918180872, guid: 7e98a9237b4c84cd480c49aa485c3ffa, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012162778964, guid: 7e98a9237b4c84cd480c49aa485c3ffa, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7e98a9237b4c84cd480c49aa485c3ffa, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!1 &188529710
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1000013549970746, guid: bbccf7d608e1040f4b43f925adf9f180,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 188529711}
+  m_Layer: 0
+  m_Name: scalar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &188529711
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4000011612839140, guid: bbccf7d608e1040f4b43f925adf9f180,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 188529710}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1454964434}
+  m_Father: {fileID: 503864154}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &262259261
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1000010861055774, guid: bbccf7d608e1040f4b43f925adf9f180,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 262259262}
+  m_Layer: 0
+  m_Name: scalar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &262259262
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4000012949874280, guid: bbccf7d608e1040f4b43f925adf9f180,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 262259261}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1536219450}
+  m_Father: {fileID: 65754470}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &265773119
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1000012578217076, guid: bbccf7d608e1040f4b43f925adf9f180,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 265773120}
+  - component: {fileID: 265773121}
+  m_Layer: 0
+  m_Name: Flower
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &265773120
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4000013915799358, guid: bbccf7d608e1040f4b43f925adf9f180,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 265773119}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.000011444092, y: 31.667332, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 503864154}
+  m_Father: {fileID: 652205967}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &265773121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 114000011938300386, guid: bbccf7d608e1040f4b43f925adf9f180,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 265773119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c724cf2ecfeb4fd1a5d39399e2a1914, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  limbs: []
+  childJoint: {fileID: 0}
+  joint: 0
+  joints: 0
+  offset: 0
+  offset2: 0
+  dictionaryName: 00000000
+  scalar: {fileID: 188529710}
+  rotator: {fileID: 503864153}
+  tip: {fileID: 0}
+--- !u!1 &266561643
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 266561645}
+  - component: {fileID: 266561644}
+  - component: {fileID: 266561646}
+  m_Layer: 0
+  m_Name: Feather
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &266561644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 266561643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03c764efec1034814b238fefb7847705, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultJoint: {fileID: 154400, guid: 0f8d8ad2509824438bc62bab7001bbe8, type: 2}
+  joints: 10,6
+  rads: 1,2
+  angles: 0,25
+  length: 1,1
+  divs: 1,1
+  start: 0,0
+  end: -1,-1
+  selectJoints:
+  - 0|-1|-1|-1|-1
+  - 0|-1|-1
+  - 0|-1|-1|-1|0
+  Transformers: []
+  transformJoints:
+  - nmrx:.3,norx:0,scale:.9,scale:.9,nrorx:.05
+  - scale:.95,nfrx:.1,nsrx:.5,nmrx:1,nMult:2
+  - sMult:10,sfrz:1,smrz:30,ssrz:0,srorz:.23
+  animate: 1
+  timeScale: 1
+  reSetupXform: 1
+  rebuildTree: 1
+--- !u!4 &266561645
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 266561643}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &266561646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 266561643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f88588690b8514163bbd6458e39a7f36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultJoint: {fileID: 154400, guid: 0f8d8ad2509824438bc62bab7001bbe8, type: 2}
+  trait: {fileID: 0}
+  jointChildren: []
+--- !u!1 &394668351
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 394668353}
+  - component: {fileID: 394668352}
+  m_Layer: 0
+  m_Name: Directional light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &394668352
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 394668351}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 1
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &394668353
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 394668351}
+  m_LocalRotation: {x: 0.8006866, y: -0.14355758, z: 0.34750763, w: 0.46640185}
+  m_LocalPosition: {x: 0.000000059604645, y: 0.5, z: -0.00000011920929}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 57.837, y: 127.69201, z: 170.054}
+--- !u!1 &459223913
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 459223915}
+  - component: {fileID: 459223914}
+  - component: {fileID: 459223916}
+  m_Layer: 0
+  m_Name: Wing
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &459223914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 459223913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03c764efec1034814b238fefb7847705, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultJoint: {fileID: 1000010381998166, guid: ef00c78c1607c470686ddff3d6f12276,
+    type: 2}
+  joints: 10,3
+  rads: 2,1
+  angles: 80
+  length: 3,7
+  divs: 1
+  start: 0
+  end: -1
+  selectJoints:
+  - 0|0|-1
+  - 0|1|-1
+  - 0|-1|-1|-1|-1
+  - 0|0|0
+  - 0|1|0
+  Transformers:
+  - Rotation: {x: 0, y: 0, z: 0}
+    OffsetRotation: {x: 0, y: 0, z: 0}
+    SinMultiply: 0
+    SinOffsetAxialA: {x: 0, y: 0, z: 0}
+    SinOffsetAxialR: {x: 0, y: 0, z: 0}
+    SinOffsetR: {x: 0, y: 0, z: 2}
+    SinFrequencyR: {x: 0.2, y: 0, z: 0.25}
+    SinSpeedR: {x: -5, y: 0, z: 0}
+    SinMultiplyR: {x: 10, y: 0, z: 12}
+    SinUniformScale: 0
+    Scale: 1.1
+    ScaleXY: {x: 0, y: 0, z: 0}
+    SinScaleMult: 0
+    SinOffsetFromRootOffset: {x: 0, y: 0, z: 0}
+    SinOffsetS: {x: 0, y: 0, z: 0}
+    SinFrequencyS: {x: 0, y: 0, z: 0}
+    SinSpeedS: {x: 0, y: 0, z: 0}
+    SinMultiplyS: {x: 0, y: 0, z: 0}
+    NoiseJointMultiply: 0
+    NoiseRootOffset: {x: 0, y: 0, z: 0}
+    NoiseOffsetAxial: {x: 0, y: 0, z: 0}
+    NoiseOffset: {x: 0, y: 0, z: 0}
+    NoiseFrequency: {x: 0, y: 0, z: 0}
+    NoiseSpeed: {x: 0, y: 0, z: 0}
+    NoiseMultiply: {x: 0, y: 0, z: 0}
+    Length: 0
+    LengthMult: 0
+    SinOffsetLength: 0
+    SinFrequencyLength: 0
+    SinSpeedLength: 0
+    SinAxisOffsetLength: 0
+    SinRootOffsetLength: 0
+    SinMultiplyLength: 0
+    LengthColorMult: 0
+    SinOffsetColor: 0
+    SinFrequencyColor: 0
+    SinSpeedColor: 0
+    SinAxisOffsetColor: 0
+    SinRootOffsetColor: 0
+    SinMultiplyColor: 0
+    SinColor: {r: 0, g: 0, b: 0, a: 1}
+  - Rotation: {x: 0, y: 0, z: 0}
+    OffsetRotation: {x: 0, y: 0, z: 0}
+    SinMultiply: 0
+    SinOffsetAxialA: {x: 0, y: 0, z: 0}
+    SinOffsetAxialR: {x: 0, y: 0, z: 0}
+    SinOffsetR: {x: 0, y: 0, z: 2}
+    SinFrequencyR: {x: 0.2, y: 0, z: 0.25}
+    SinSpeedR: {x: -5, y: 0, z: 0}
+    SinMultiplyR: {x: -10, y: 0, z: 12}
+    SinUniformScale: 0
+    Scale: 1.1
+    ScaleXY: {x: 0, y: 0, z: 0}
+    SinScaleMult: 0
+    SinOffsetFromRootOffset: {x: 0, y: 0, z: 0}
+    SinOffsetS: {x: 0, y: 0, z: 0}
+    SinFrequencyS: {x: 0, y: 0, z: 0}
+    SinSpeedS: {x: 0, y: 0, z: 0}
+    SinMultiplyS: {x: 0, y: 0, z: 0}
+    NoiseJointMultiply: 0
+    NoiseRootOffset: {x: 0, y: 0, z: 0}
+    NoiseOffsetAxial: {x: 0, y: 0, z: 0}
+    NoiseOffset: {x: 0, y: 0, z: 0}
+    NoiseFrequency: {x: 0, y: 0, z: 0}
+    NoiseSpeed: {x: 0, y: 0, z: 0}
+    NoiseMultiply: {x: 0, y: 0, z: 0}
+    Length: 0
+    LengthMult: 0
+    SinOffsetLength: 0
+    SinFrequencyLength: 0
+    SinSpeedLength: 0
+    SinAxisOffsetLength: 0
+    SinRootOffsetLength: 0
+    SinMultiplyLength: 0
+    LengthColorMult: 0
+    SinOffsetColor: 0
+    SinFrequencyColor: 0
+    SinSpeedColor: 0
+    SinAxisOffsetColor: 0
+    SinRootOffsetColor: 0
+    SinMultiplyColor: 0
+    SinColor: {r: 0, g: 0, b: 0, a: 1}
+  - Rotation: {x: 0, y: 0, z: 0}
+    OffsetRotation: {x: 0, y: 0, z: 0}
+    SinMultiply: 0
+    SinOffsetAxialA: {x: 0, y: 0, z: 0}
+    SinOffsetAxialR: {x: 0, y: 0, z: 0.2}
+    SinOffsetR: {x: 0, y: 0, z: 3}
+    SinFrequencyR: {x: 0, y: 0, z: 0.2}
+    SinSpeedR: {x: 0, y: 0, z: 0}
+    SinMultiplyR: {x: 0, y: 0, z: 20}
+    SinUniformScale: 0
+    Scale: 1
+    ScaleXY: {x: 0, y: 0, z: 0}
+    SinScaleMult: 0
+    SinOffsetFromRootOffset: {x: 0, y: 0, z: 0}
+    SinOffsetS: {x: 0, y: 0, z: 0}
+    SinFrequencyS: {x: 0, y: 0, z: 0}
+    SinSpeedS: {x: 0, y: 0, z: 0}
+    SinMultiplyS: {x: 0, y: 0, z: 0}
+    NoiseJointMultiply: 0
+    NoiseRootOffset: {x: 0, y: 0, z: 0}
+    NoiseOffsetAxial: {x: 0, y: 0, z: 0}
+    NoiseOffset: {x: 0, y: 0, z: 0}
+    NoiseFrequency: {x: 0, y: 0, z: 0}
+    NoiseSpeed: {x: 0, y: 0, z: 0}
+    NoiseMultiply: {x: 0, y: 0, z: 0}
+    Length: 0
+    LengthMult: 0
+    SinOffsetLength: 0
+    SinFrequencyLength: 0
+    SinSpeedLength: 0
+    SinAxisOffsetLength: 0
+    SinRootOffsetLength: 0
+    SinMultiplyLength: 0
+    LengthColorMult: 0
+    SinOffsetColor: 0
+    SinFrequencyColor: 0
+    SinSpeedColor: 0
+    SinAxisOffsetColor: 0
+    SinRootOffsetColor: 0
+    SinMultiplyColor: 0
+    SinColor: {r: 0, g: 0, b: 0, a: 1}
+  - Rotation: {x: 0, y: 0, z: -30}
+    OffsetRotation: {x: 0, y: 0, z: 0}
+    SinMultiply: 0
+    SinOffsetAxialA: {x: 0, y: 0, z: 0}
+    SinOffsetAxialR: {x: 0, y: 0, z: 0}
+    SinOffsetR: {x: 0, y: 0, z: 0}
+    SinFrequencyR: {x: 0, y: 0, z: 0}
+    SinSpeedR: {x: 0, y: 0, z: 0}
+    SinMultiplyR: {x: 0, y: 0, z: 0}
+    SinUniformScale: 0
+    Scale: 1
+    ScaleXY: {x: 0, y: 0, z: 0}
+    SinScaleMult: 0
+    SinOffsetFromRootOffset: {x: 0, y: 0, z: 0}
+    SinOffsetS: {x: 0, y: 0, z: 0}
+    SinFrequencyS: {x: 0, y: 0, z: 0}
+    SinSpeedS: {x: 0, y: 0, z: 0}
+    SinMultiplyS: {x: 0, y: 0, z: 0}
+    NoiseJointMultiply: 0
+    NoiseRootOffset: {x: 0, y: 0, z: 0}
+    NoiseOffsetAxial: {x: 0, y: 0, z: 0}
+    NoiseOffset: {x: 0, y: 0, z: 0}
+    NoiseFrequency: {x: 0, y: 0, z: 0}
+    NoiseSpeed: {x: 0, y: 0, z: 0}
+    NoiseMultiply: {x: 0, y: 0, z: 0}
+    Length: 0
+    LengthMult: 0
+    SinOffsetLength: 0
+    SinFrequencyLength: 0
+    SinSpeedLength: 0
+    SinAxisOffsetLength: 0
+    SinRootOffsetLength: 0
+    SinMultiplyLength: 0
+    LengthColorMult: 0
+    SinOffsetColor: 0
+    SinFrequencyColor: 0
+    SinSpeedColor: 0
+    SinAxisOffsetColor: 0
+    SinRootOffsetColor: 0
+    SinMultiplyColor: 0
+    SinColor: {r: 0, g: 0, b: 0, a: 1}
+  - Rotation: {x: 0, y: 0, z: -30}
+    OffsetRotation: {x: 0, y: 0, z: 0}
+    SinMultiply: 0
+    SinOffsetAxialA: {x: 0, y: 0, z: 0}
+    SinOffsetAxialR: {x: 0, y: 0, z: 0}
+    SinOffsetR: {x: 0, y: 0, z: 0}
+    SinFrequencyR: {x: 0, y: 0, z: 0}
+    SinSpeedR: {x: 0, y: 0, z: 0}
+    SinMultiplyR: {x: 0, y: 0, z: 0}
+    SinUniformScale: 0
+    Scale: 1
+    ScaleXY: {x: 0, y: 0, z: 0}
+    SinScaleMult: 0
+    SinOffsetFromRootOffset: {x: 0, y: 0, z: 0}
+    SinOffsetS: {x: 0, y: 0, z: 0}
+    SinFrequencyS: {x: 0, y: 0, z: 0}
+    SinSpeedS: {x: 0, y: 0, z: 0}
+    SinMultiplyS: {x: 0, y: 0, z: 0}
+    NoiseJointMultiply: 0
+    NoiseRootOffset: {x: 0, y: 0, z: 0}
+    NoiseOffsetAxial: {x: 0, y: 0, z: 0}
+    NoiseOffset: {x: 0, y: 0, z: 0}
+    NoiseFrequency: {x: 0, y: 0, z: 0}
+    NoiseSpeed: {x: 0, y: 0, z: 0}
+    NoiseMultiply: {x: 0, y: 0, z: 0}
+    Length: 0
+    LengthMult: 0
+    SinOffsetLength: 0
+    SinFrequencyLength: 0
+    SinSpeedLength: 0
+    SinAxisOffsetLength: 0
+    SinRootOffsetLength: 0
+    SinMultiplyLength: 0
+    LengthColorMult: 0
+    SinOffsetColor: 0
+    SinFrequencyColor: 0
+    SinSpeedColor: 0
+    SinAxisOffsetColor: 0
+    SinRootOffsetColor: 0
+    SinMultiplyColor: 0
+    SinColor: {r: 0, g: 0, b: 0, a: 1}
+  transformJoints:
+  - smrz:12,sfrz:.25,sorz:2,scale:1.1,smrx:10,sfrx:.2,ssrx:-5
+  - smrz:12,sfrz:.25,sorz:2,scale:1.1,smrx:-10,sfrx:.2,ssrx:-5
+  - sfrz:.2,smrz:20,sorz:3,srorz:.2
+  - rz:-30
+  - rz:-30
+  animate: 1
+  timeScale: 1
+  reSetupXform: 1
+  rebuildTree: 1
+--- !u!4 &459223915
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 459223913}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &459223916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 459223913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f88588690b8514163bbd6458e39a7f36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultJoint: {fileID: 1000010381998166, guid: ef00c78c1607c470686ddff3d6f12276,
+    type: 2}
+  trait: {fileID: 0}
+  jointChildren: []
+--- !u!1 &503864153
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1000012350207226, guid: bbccf7d608e1040f4b43f925adf9f180,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 503864154}
+  m_Layer: 0
+  m_Name: rotator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &503864154
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4000010944906794, guid: bbccf7d608e1040f4b43f925adf9f180,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 503864153}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 532267706}
+  - {fileID: 188529711}
+  m_Father: {fileID: 265773120}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &532267705
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1000010850802320, guid: bbccf7d608e1040f4b43f925adf9f180,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 532267706}
+  - component: {fileID: 532267709}
+  - component: {fileID: 532267708}
+  - component: {fileID: 532267707}
+  m_Layer: 0
+  m_Name: ball
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &532267706
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4000010161256650, guid: bbccf7d608e1040f4b43f925adf9f180,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 532267705}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 503864154}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &532267707
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 23000011164489306, guid: bbccf7d608e1040f4b43f925adf9f180,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 532267705}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &532267708
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 65000012047363440, guid: bbccf7d608e1040f4b43f925adf9f180,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 532267705}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &532267709
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 33000011368798196, guid: bbccf7d608e1040f4b43f925adf9f180,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 532267705}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &652205966
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 652205967}
+  m_Layer: 0
+  m_Name: Rhubarb
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &652205967
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 652205966}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.000011444092, y: -31.667332, z: 0.0000038146973}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 265773120}
+  - {fileID: 718484629}
+  - {fileID: 1940035084}
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &696883070
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 696883075}
+  - component: {fileID: 696883074}
+  - component: {fileID: 696883073}
+  - component: {fileID: 696883072}
+  - component: {fileID: 696883071}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &696883071
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 696883070}
+  m_Enabled: 1
+--- !u!124 &696883072
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 696883070}
+  m_Enabled: 1
+--- !u!92 &696883073
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 696883070}
+  m_Enabled: 1
+--- !u!20 &696883074
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 696883070}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0.019607844}
+  m_projectionMatrixMode: 1
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &696883075
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 696883070}
+  m_LocalRotation: {x: -0.3277194, y: -0.007085798, z: 0.0024579016, w: -0.94474536}
+  m_LocalPosition: {x: 2.9992356, y: 20.847197, z: -24.751143}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &718484627
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1000010852050480, guid: bbccf7d608e1040f4b43f925adf9f180,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 718484629}
+  - component: {fileID: 718484628}
+  m_Layer: 0
+  m_Name: Bark
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &718484628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 114000011749365600, guid: bbccf7d608e1040f4b43f925adf9f180,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 718484627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c724cf2ecfeb4fd1a5d39399e2a1914, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  limbs: []
+  childJoint: {fileID: 0}
+  joint: 0
+  joints: 0
+  offset: 0
+  offset2: 0
+  dictionaryName: 00000000
+  scalar: {fileID: 262259261}
+  rotator: {fileID: 65754469}
+  tip: {fileID: 0}
+--- !u!4 &718484629
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4000010464088656, guid: bbccf7d608e1040f4b43f925adf9f180,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 718484627}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.000011444092, y: 31.667332, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 65754470}
+  m_Father: {fileID: 652205967}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &856920874 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4000013049714696, guid: c671245a1ec8b44fa9ccae8ee6e405e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 1942628874}
+--- !u!1 &1013255822
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1000013390564064, guid: bbccf7d608e1040f4b43f925adf9f180,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1013255823}
+  - component: {fileID: 1013255826}
+  - component: {fileID: 1013255825}
+  - component: {fileID: 1013255824}
+  m_Layer: 0
+  m_Name: ball
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1013255823
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4000013758432872, guid: bbccf7d608e1040f4b43f925adf9f180,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1013255822}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 65754470}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1013255824
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 23000011136100320, guid: bbccf7d608e1040f4b43f925adf9f180,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1013255822}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &1013255825
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 65000013775859736, guid: bbccf7d608e1040f4b43f925adf9f180,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1013255822}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1013255826
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 33000012969645792, guid: bbccf7d608e1040f4b43f925adf9f180,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1013255822}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1100854886
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1000011289420168, guid: 84ef5c355eeae4fffacf271f424e108d,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1100854889}
+  - component: {fileID: 1100854888}
+  - component: {fileID: 1100854887}
+  m_Layer: 0
+  m_Name: Kaleidoscope
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1100854887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1100854886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f88588690b8514163bbd6458e39a7f36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultJoint: {fileID: 1885831606486280, guid: 48dfb1c4de4cf0e4b9843a331b1696cf,
+    type: 2}
+  trait: {fileID: 0}
+  jointChildren: []
+--- !u!114 &1100854888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1100854886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03c764efec1034814b238fefb7847705, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultJoint: {fileID: 1885831606486280, guid: 48dfb1c4de4cf0e4b9843a331b1696cf,
+    type: 2}
+  joints: 6,2
+  rads: 1,6
+  angles: 0,90
+  length: .01,2
+  divs: 1
+  start: 0
+  end: -1
+  selectJoints:
+  - 0|-1|-1
+  - 0|-1|-1|-1|-1
+  Transformers:
+  - Rotation: {x: 0, y: 15, z: 0}
+    OffsetRotation: {x: 0, y: 0, z: 0}
+    SinMultiply: 0
+    SinOffsetAxialA: {x: 0, y: 0, z: 0}
+    SinOffsetAxialR: {x: 0, y: 0, z: 0}
+    SinOffsetR: {x: 0, y: 0, z: 0}
+    SinFrequencyR: {x: 0, y: 0, z: 0}
+    SinSpeedR: {x: 0, y: 0, z: 0}
+    SinMultiplyR: {x: 0, y: 0, z: 0}
+    SinUniformScale: 0
+    Scale: 1
+    ScaleXY: {x: 0, y: 0, z: 0}
+    SinScaleMult: 0
+    SinOffsetFromRootOffset: {x: 0, y: 0, z: 0}
+    SinOffsetS: {x: 0, y: 0, z: 0}
+    SinFrequencyS: {x: 0, y: 0, z: 0}
+    SinSpeedS: {x: 0, y: 0, z: 0}
+    SinMultiplyS: {x: 0, y: 0, z: 0}
+    NoiseJointMultiply: 0
+    NoiseRootOffset: {x: 0, y: 0, z: 0}
+    NoiseOffsetAxial: {x: 0, y: 0, z: 0}
+    NoiseOffset: {x: 0, y: 0, z: 0}
+    NoiseFrequency: {x: 0, y: 0, z: 0}
+    NoiseSpeed: {x: 0, y: 0, z: 0}
+    NoiseMultiply: {x: 0, y: 0, z: 0}
+    Length: 0
+    LengthMult: 0
+    SinOffsetLength: 0
+    SinFrequencyLength: 0
+    SinSpeedLength: 0
+    SinAxisOffsetLength: 0
+    SinRootOffsetLength: 0
+    SinMultiplyLength: 0
+    LengthColorMult: 0
+    SinOffsetColor: 0
+    SinFrequencyColor: 0
+    SinSpeedColor: 0
+    SinAxisOffsetColor: 0
+    SinRootOffsetColor: 0
+    SinMultiplyColor: 0
+    SinColor: {r: 0, g: 0, b: 0, a: 1}
+  - Rotation: {x: 0, y: 0, z: 0}
+    OffsetRotation: {x: 0, y: 0, z: 0}
+    SinMultiply: 0
+    SinOffsetAxialA: {x: 0, y: 0, z: 0}
+    SinOffsetAxialR: {x: 0, y: 0, z: 1}
+    SinOffsetR: {x: 0, y: 0, z: 0}
+    SinFrequencyR: {x: 0, y: 0, z: 1}
+    SinSpeedR: {x: 0, y: 0, z: 1}
+    SinMultiplyR: {x: 0, y: 0, z: 50}
+    SinUniformScale: 0
+    Scale: 1
+    ScaleXY: {x: 0, y: 0, z: 0}
+    SinScaleMult: 0
+    SinOffsetFromRootOffset: {x: 0, y: 0, z: 0}
+    SinOffsetS: {x: 0, y: 0, z: 0}
+    SinFrequencyS: {x: 0, y: 0, z: 0}
+    SinSpeedS: {x: 0, y: 0, z: 0}
+    SinMultiplyS: {x: 0, y: 0, z: 0}
+    NoiseJointMultiply: 0
+    NoiseRootOffset: {x: 0, y: 0, z: 0}
+    NoiseOffsetAxial: {x: 0, y: 0, z: 0}
+    NoiseOffset: {x: 0, y: 0, z: 0}
+    NoiseFrequency: {x: 0, y: 0, z: 0}
+    NoiseSpeed: {x: 0, y: 0, z: 0}
+    NoiseMultiply: {x: 0, y: 0, z: 0}
+    Length: 5
+    LengthMult: 0
+    SinOffsetLength: 0
+    SinFrequencyLength: 0.2
+    SinSpeedLength: 1
+    SinAxisOffsetLength: 0
+    SinRootOffsetLength: 3
+    SinMultiplyLength: 4
+    LengthColorMult: 0
+    SinOffsetColor: 0
+    SinFrequencyColor: 1
+    SinSpeedColor: 0
+    SinAxisOffsetColor: 0
+    SinRootOffsetColor: 1
+    SinMultiplyColor: 1
+    SinColor: {r: 1, g: 0, b: 0, a: 1}
+  transformJoints:
+  - ry:15
+  - cr:1,smc:1,sfc:1,sroc:1,length:5,sml:4,sfl:.2,ssl:1,srol:3,smrz:50,sfrz:1,ssrz:1,srorz:1
+  animate: 1
+  timeScale: 1
+  reSetupXform: 1
+  rebuildTree: 1
+--- !u!4 &1100854889
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4000011830175196, guid: 84ef5c355eeae4fffacf271f424e108d,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1100854886}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.012294385, y: 0.08843634, z: 0.109354876}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1385737786
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1000011289420168, guid: 84ef5c355eeae4fffacf271f424e108d,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1385737789}
+  - component: {fileID: 1385737788}
+  - component: {fileID: 1385737787}
+  m_Layer: 0
+  m_Name: Gerkin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1385737787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1385737786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f88588690b8514163bbd6458e39a7f36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultJoint: {fileID: 154400, guid: 0f8d8ad2509824438bc62bab7001bbe8, type: 2}
+  trait: {fileID: 0}
+  jointChildren: []
+--- !u!114 &1385737788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1385737786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03c764efec1034814b238fefb7847705, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultJoint: {fileID: 154400, guid: 0f8d8ad2509824438bc62bab7001bbe8, type: 2}
+  joints: 12,10,5
+  rads: 2,2,2
+  angles: 120,0,60
+  length: 4,1,2
+  divs: 1
+  start: 0,0,9
+  end: -1
+  selectJoints:
+  - 0|-1|-1|-1|-1
+  - 0|-1|-1
+  - 0|-1|-1|-1|-3
+  - 0|-1|-1|-1|-1|-1|-1
+  - 0|-1|-1|1|0
+  Transformers:
+  - Rotation: {x: 0, y: 0, z: 8}
+    OffsetRotation: {x: 0, y: 0, z: 0}
+    SinMultiply: 0
+    SinOffsetAxialA: {x: 0, y: 0, z: 0}
+    SinOffsetAxialR: {x: 0, y: 0, z: 0}
+    SinOffsetR: {x: 0, y: 0, z: 0}
+    SinFrequencyR: {x: 0, y: 0, z: 0}
+    SinSpeedR: {x: 0, y: 0, z: 0}
+    SinMultiplyR: {x: 0, y: 0, z: 0}
+    SinUniformScale: 0
+    Scale: 0.9
+    ScaleXY: {x: 0, y: 0, z: 0}
+    SinScaleMult: 0
+    SinOffsetFromRootOffset: {x: 0, y: 0, z: 0}
+    SinOffsetS: {x: 0, y: 0, z: 0}
+    SinFrequencyS: {x: 0, y: 0, z: 0}
+    SinSpeedS: {x: 0, y: 0, z: 0}
+    SinMultiplyS: {x: 0, y: 0, z: 0}
+    NoiseJointMultiply: 0
+    NoiseRootOffset: {x: 0, y: 0, z: 0}
+    NoiseOffsetAxial: {x: 0, y: 0, z: 0}
+    NoiseOffset: {x: 0, y: 0, z: 0}
+    NoiseFrequency: {x: 0, y: 0, z: 0}
+    NoiseSpeed: {x: 0, y: 0, z: 0}
+    NoiseMultiply: {x: 0, y: 0, z: 0}
+    Length: 0
+    LengthMult: 0
+    SinOffsetLength: 0
+    SinFrequencyLength: 0
+    SinSpeedLength: 0
+    SinAxisOffsetLength: 0
+    SinRootOffsetLength: 0
+    SinMultiplyLength: 0
+    LengthColorMult: 0
+    SinOffsetColor: 0
+    SinFrequencyColor: 0
+    SinSpeedColor: 0
+    SinAxisOffsetColor: 0
+    SinRootOffsetColor: 0
+    SinMultiplyColor: 0
+    SinColor: {r: 0, g: 0, b: 0, a: 1}
+  - Rotation: {x: 0, y: 0, z: -14}
+    OffsetRotation: {x: 0, y: 0, z: 0}
+    SinMultiply: 0
+    SinOffsetAxialA: {x: 0, y: 0, z: 0}
+    SinOffsetAxialR: {x: 0, y: 0, z: 0}
+    SinOffsetR: {x: 0, y: 0, z: 0}
+    SinFrequencyR: {x: 0, y: 0, z: 0}
+    SinSpeedR: {x: 0, y: 0, z: 0}
+    SinMultiplyR: {x: 0, y: 0, z: 0}
+    SinUniformScale: 0
+    Scale: 1.05
+    ScaleXY: {x: 0, y: 0, z: 0}
+    SinScaleMult: 0
+    SinOffsetFromRootOffset: {x: 0, y: 0, z: 0}
+    SinOffsetS: {x: 0, y: 0, z: 0}
+    SinFrequencyS: {x: 0, y: 0, z: 0}
+    SinSpeedS: {x: 0, y: 0, z: 0}
+    SinMultiplyS: {x: 0, y: 0, z: 0}
+    NoiseJointMultiply: 0
+    NoiseRootOffset: {x: 0, y: 0, z: 0}
+    NoiseOffsetAxial: {x: 0, y: 0, z: 0}
+    NoiseOffset: {x: 0, y: 0, z: 0}
+    NoiseFrequency: {x: 0, y: 0, z: 0}
+    NoiseSpeed: {x: 0, y: 0, z: 0}
+    NoiseMultiply: {x: 0, y: 0, z: 0}
+    Length: 0
+    LengthMult: 0
+    SinOffsetLength: 0
+    SinFrequencyLength: 0
+    SinSpeedLength: 0
+    SinAxisOffsetLength: 0
+    SinRootOffsetLength: 0
+    SinMultiplyLength: 0
+    LengthColorMult: 0
+    SinOffsetColor: 0
+    SinFrequencyColor: 0
+    SinSpeedColor: 0
+    SinAxisOffsetColor: 0
+    SinRootOffsetColor: 0
+    SinMultiplyColor: 0
+    SinColor: {r: 0, g: 0, b: 0, a: 1}
+  - Rotation: {x: 0, y: 0, z: 0}
+    OffsetRotation: {x: 0, y: 0, z: 0}
+    SinMultiply: 0
+    SinOffsetAxialA: {x: 0, y: 0, z: 0}
+    SinOffsetAxialR: {x: 0, y: 0, z: 0}
+    SinOffsetR: {x: 0, y: 0, z: 0}
+    SinFrequencyR: {x: 0, y: 0, z: 0}
+    SinSpeedR: {x: 0, y: 0, z: 0}
+    SinMultiplyR: {x: 0, y: 0, z: 0}
+    SinUniformScale: 0
+    Scale: 2
+    ScaleXY: {x: 0, y: 0, z: 0}
+    SinScaleMult: 0
+    SinOffsetFromRootOffset: {x: 0, y: 0, z: 0}
+    SinOffsetS: {x: 0, y: 0, z: 0}
+    SinFrequencyS: {x: 0, y: 0, z: 0}
+    SinSpeedS: {x: 0, y: 0, z: 0}
+    SinMultiplyS: {x: 0, y: 0, z: 0}
+    NoiseJointMultiply: 0
+    NoiseRootOffset: {x: 0, y: 0, z: 0}
+    NoiseOffsetAxial: {x: 0, y: 0, z: 0}
+    NoiseOffset: {x: 0, y: 0, z: 0}
+    NoiseFrequency: {x: 0, y: 0, z: 0}
+    NoiseSpeed: {x: 0, y: 0, z: 0}
+    NoiseMultiply: {x: 0, y: 0, z: 0}
+    Length: 0
+    LengthMult: 0
+    SinOffsetLength: 0
+    SinFrequencyLength: 0
+    SinSpeedLength: 0
+    SinAxisOffsetLength: 0
+    SinRootOffsetLength: 0
+    SinMultiplyLength: 0
+    LengthColorMult: 0
+    SinOffsetColor: 0
+    SinFrequencyColor: 0
+    SinSpeedColor: 0
+    SinAxisOffsetColor: 0
+    SinRootOffsetColor: 0
+    SinMultiplyColor: 0
+    SinColor: {r: 0, g: 0, b: 0, a: 1}
+  - Rotation: {x: 0, y: 0, z: -20}
+    OffsetRotation: {x: 0, y: 0, z: 0}
+    SinMultiply: 0
+    SinOffsetAxialA: {x: 0, y: 0, z: 0}
+    SinOffsetAxialR: {x: 0, y: 0, z: 0}
+    SinOffsetR: {x: 0, y: 0, z: 0}
+    SinFrequencyR: {x: 0, y: 0, z: 0}
+    SinSpeedR: {x: 0, y: 0, z: 0}
+    SinMultiplyR: {x: 0, y: 0, z: 0}
+    SinUniformScale: 0
+    Scale: 0.8
+    ScaleXY: {x: 0, y: 0, z: 0}
+    SinScaleMult: 0
+    SinOffsetFromRootOffset: {x: 0, y: 0, z: 0}
+    SinOffsetS: {x: 0, y: 0, z: 0}
+    SinFrequencyS: {x: 0, y: 0, z: 0}
+    SinSpeedS: {x: 0, y: 0, z: 0}
+    SinMultiplyS: {x: 0, y: 0, z: 0}
+    NoiseJointMultiply: 0
+    NoiseRootOffset: {x: 0, y: 0, z: 0}
+    NoiseOffsetAxial: {x: 0, y: 0, z: 0}
+    NoiseOffset: {x: 0, y: 0, z: 0}
+    NoiseFrequency: {x: 0, y: 0, z: 0}
+    NoiseSpeed: {x: 0, y: 0, z: 0}
+    NoiseMultiply: {x: 0, y: 0, z: 0}
+    Length: 0
+    LengthMult: 0
+    SinOffsetLength: 0
+    SinFrequencyLength: 0
+    SinSpeedLength: 0
+    SinAxisOffsetLength: 0
+    SinRootOffsetLength: 0
+    SinMultiplyLength: 0
+    LengthColorMult: 0
+    SinOffsetColor: 0
+    SinFrequencyColor: 0
+    SinSpeedColor: 0
+    SinAxisOffsetColor: 0
+    SinRootOffsetColor: 0
+    SinMultiplyColor: 0
+    SinColor: {r: 0, g: 0, b: 0, a: 1}
+  - Rotation: {x: 0, y: 0, z: 20}
+    OffsetRotation: {x: 0, y: 0, z: 0}
+    SinMultiply: 0
+    SinOffsetAxialA: {x: 0, y: 0, z: 0}
+    SinOffsetAxialR: {x: 0, y: 0, z: 0}
+    SinOffsetR: {x: 0, y: 0, z: 0}
+    SinFrequencyR: {x: 0, y: 0, z: 0}
+    SinSpeedR: {x: 0, y: 0, z: 0}
+    SinMultiplyR: {x: 0, y: 0, z: 0}
+    SinUniformScale: 0
+    Scale: 0.7
+    ScaleXY: {x: 0, y: 0, z: 0}
+    SinScaleMult: 0
+    SinOffsetFromRootOffset: {x: 0, y: 0, z: 0}
+    SinOffsetS: {x: 0, y: 0, z: 0}
+    SinFrequencyS: {x: 0, y: 0, z: 0}
+    SinSpeedS: {x: 0, y: 0, z: 0}
+    SinMultiplyS: {x: 0, y: 0, z: 0}
+    NoiseJointMultiply: 0
+    NoiseRootOffset: {x: 0, y: 0, z: 0}
+    NoiseOffsetAxial: {x: 0, y: 0, z: 0}
+    NoiseOffset: {x: 0, y: 0, z: 0}
+    NoiseFrequency: {x: 0, y: 0, z: 0}
+    NoiseSpeed: {x: 0, y: 0, z: 0}
+    NoiseMultiply: {x: 0, y: 0, z: 0}
+    Length: 0
+    LengthMult: 0
+    SinOffsetLength: 0
+    SinFrequencyLength: 0
+    SinSpeedLength: 0
+    SinAxisOffsetLength: 0
+    SinRootOffsetLength: 0
+    SinMultiplyLength: 0
+    LengthColorMult: 0
+    SinOffsetColor: 0
+    SinFrequencyColor: 0
+    SinSpeedColor: 0
+    SinAxisOffsetColor: 0
+    SinRootOffsetColor: 0
+    SinMultiplyColor: 0
+    SinColor: {r: 0, g: 0, b: 0, a: 1}
+  transformJoints:
+  - rz:8,scale:.9
+  - rz:-14,scale:1.05
+  - scale:2
+  - scale:.8,rz:-20
+  - scale:.7,rz:20
+  animate: 1
+  timeScale: 1
+  reSetupXform: 1
+  rebuildTree: 1
+--- !u!4 &1385737789
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4000011830175196, guid: 84ef5c355eeae4fffacf271f424e108d,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1385737786}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1454964433
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1000013052672730, guid: bbccf7d608e1040f4b43f925adf9f180,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1454964434}
+  - component: {fileID: 1454964436}
+  - component: {fileID: 1454964435}
+  m_Layer: 0
+  m_Name: meshFlower
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1454964434
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4000013964033004, guid: bbccf7d608e1040f4b43f925adf9f180,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1454964433}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.112, z: 0}
+  m_LocalScale: {x: -0.03856802, y: -0.038568024, z: -0.038568024}
+  m_Children: []
+  m_Father: {fileID: 188529711}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1454964435
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 23000014294450528, guid: bbccf7d608e1040f4b43f925adf9f180,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1454964433}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1454964436
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 33000012899609460, guid: bbccf7d608e1040f4b43f925adf9f180,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1454964433}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1536219449
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1000011448213808, guid: bbccf7d608e1040f4b43f925adf9f180,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1536219450}
+  - component: {fileID: 1536219452}
+  - component: {fileID: 1536219451}
+  m_Layer: 0
+  m_Name: mesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1536219450
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4000010306237682, guid: bbccf7d608e1040f4b43f925adf9f180,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1536219449}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.1, y: -1.27, z: 0.1}
+  m_LocalScale: {x: 0.1, y: 0.058487564, z: 0.1}
+  m_Children: []
+  m_Father: {fileID: 262259262}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1536219451
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 23000013514200260, guid: bbccf7d608e1040f4b43f925adf9f180,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1536219449}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1536219452
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 33000011135589926, guid: bbccf7d608e1040f4b43f925adf9f180,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1536219449}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1940035083
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1000011289420168, guid: 84ef5c355eeae4fffacf271f424e108d,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1940035084}
+  - component: {fileID: 1940035086}
+  - component: {fileID: 1940035085}
+  m_Layer: 0
+  m_Name: Rhubarb
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1940035084
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4000011830175196, guid: 84ef5c355eeae4fffacf271f424e108d,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1940035083}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.012282941, y: 31.755768, z: 0.10935106}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 652205967}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1940035085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1940035083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f88588690b8514163bbd6458e39a7f36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultJoint: {fileID: 718484627}
+  trait: {fileID: 0}
+  jointChildren: []
+--- !u!114 &1940035086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1940035083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03c764efec1034814b238fefb7847705, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultJoint: {fileID: 718484627}
+  joints: 7,6,1
+  rads: 1,3,1
+  angles: 0,0,0
+  length: 3,1,1
+  divs: 1
+  start: 1,1,5
+  end: -1
+  selectJoints:
+  - 0|-1|-2
+  - 0|-1|-1|-1|2,5
+  - 0|-1|-1|-1|0
+  - 0|-1|-1|-1|-1|-1|-1
+  Transformers:
+  - Rotation: {x: 0, y: 15, z: 0}
+    OffsetRotation: {x: 0, y: 0, z: 0}
+    SinMultiply: 0
+    SinOffsetAxialA: {x: 0, y: 0, z: 0}
+    SinOffsetAxialR: {x: 0, y: 0, z: 0}
+    SinOffsetR: {x: 0, y: 0, z: 0}
+    SinFrequencyR: {x: 0, y: 0, z: 0}
+    SinSpeedR: {x: 0, y: 0, z: 0}
+    SinMultiplyR: {x: 0, y: 0, z: 0}
+    SinUniformScale: 0
+    Scale: 1
+    ScaleXY: {x: 0, y: 0, z: 0}
+    SinScaleMult: 0
+    SinOffsetFromRootOffset: {x: 0, y: 0, z: 0}
+    SinOffsetS: {x: 0, y: 0, z: 0}
+    SinFrequencyS: {x: 0, y: 0, z: 0}
+    SinSpeedS: {x: 0, y: 0, z: 0}
+    SinMultiplyS: {x: 0, y: 0, z: 0}
+    NoiseJointMultiply: 0
+    NoiseRootOffset: {x: 0, y: 0, z: 0}
+    NoiseOffsetAxial: {x: 0, y: 0, z: 0}
+    NoiseOffset: {x: 0, y: 0, z: 0}
+    NoiseFrequency: {x: 0, y: 0, z: 0}
+    NoiseSpeed: {x: 0, y: 0, z: 0}
+    NoiseMultiply: {x: 0, y: 0, z: 0}
+    Length: 0
+    LengthMult: 0
+    SinOffsetLength: 0
+    SinFrequencyLength: 0
+    SinSpeedLength: 0
+    SinAxisOffsetLength: 0
+    SinRootOffsetLength: 0
+    SinMultiplyLength: 0
+    LengthColorMult: 0
+    SinOffsetColor: 0
+    SinFrequencyColor: 0
+    SinSpeedColor: 0
+    SinAxisOffsetColor: 0
+    SinRootOffsetColor: 0
+    SinMultiplyColor: 0
+    SinColor: {r: 0, g: 0, b: 0, a: 1}
+  - Rotation: {x: 0, y: 0, z: 0}
+    OffsetRotation: {x: 0, y: 0, z: 0}
+    SinMultiply: 0
+    SinOffsetAxialA: {x: 0, y: 0, z: 0}
+    SinOffsetAxialR: {x: 0, y: 0, z: 1}
+    SinOffsetR: {x: 0, y: 0, z: 0}
+    SinFrequencyR: {x: 0, y: 0, z: 1}
+    SinSpeedR: {x: 0, y: 0, z: 1}
+    SinMultiplyR: {x: 0, y: 0, z: 50}
+    SinUniformScale: 0
+    Scale: 1
+    ScaleXY: {x: 0, y: 0, z: 0}
+    SinScaleMult: 0
+    SinOffsetFromRootOffset: {x: 0, y: 0, z: 0}
+    SinOffsetS: {x: 0, y: 0, z: 0}
+    SinFrequencyS: {x: 0, y: 0, z: 0}
+    SinSpeedS: {x: 0, y: 0, z: 0}
+    SinMultiplyS: {x: 0, y: 0, z: 0}
+    NoiseJointMultiply: 0
+    NoiseRootOffset: {x: 0, y: 0, z: 0}
+    NoiseOffsetAxial: {x: 0, y: 0, z: 0}
+    NoiseOffset: {x: 0, y: 0, z: 0}
+    NoiseFrequency: {x: 0, y: 0, z: 0}
+    NoiseSpeed: {x: 0, y: 0, z: 0}
+    NoiseMultiply: {x: 0, y: 0, z: 0}
+    Length: 5
+    LengthMult: 0
+    SinOffsetLength: 0
+    SinFrequencyLength: 0.2
+    SinSpeedLength: 1
+    SinAxisOffsetLength: 0
+    SinRootOffsetLength: 3
+    SinMultiplyLength: 4
+    LengthColorMult: 0
+    SinOffsetColor: 0
+    SinFrequencyColor: 1
+    SinSpeedColor: 0
+    SinAxisOffsetColor: 0
+    SinRootOffsetColor: 1
+    SinMultiplyColor: 1
+    SinColor: {r: 1, g: 0, b: 0, a: 1}
+  transformJoints:
+  - ry:45,scale:.9,nfrx:.2,nmrx:30,nsrx:.2
+  - scale:1.2,rz:20
+  - smrz:30,srorz:.5,smfz:1,sorz:1
+  - scale:2
+  animate: 1
+  timeScale: 1
+  reSetupXform: 1
+  rebuildTree: 1
+--- !u!1001 &1942628874
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 67188450}
+    m_Modifications:
+    - target: {fileID: 4000013049714696, guid: c671245a1ec8b44fa9ccae8ee6e405e0, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 6.593697
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013049714696, guid: c671245a1ec8b44fa9ccae8ee6e405e0, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 47.0683
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013049714696, guid: c671245a1ec8b44fa9ccae8ee6e405e0, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -21.358593
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013049714696, guid: c671245a1ec8b44fa9ccae8ee6e405e0, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013049714696, guid: c671245a1ec8b44fa9ccae8ee6e405e0, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013049714696, guid: c671245a1ec8b44fa9ccae8ee6e405e0, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013049714696, guid: c671245a1ec8b44fa9ccae8ee6e405e0, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013049714696, guid: c671245a1ec8b44fa9ccae8ee6e405e0, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011380040906, guid: c671245a1ec8b44fa9ccae8ee6e405e0, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c671245a1ec8b44fa9ccae8ee6e405e0, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!4 &1963586003 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4000013918180872, guid: 7e98a9237b4c84cd480c49aa485c3ffa,
+    type: 2}
+  m_PrefabInternal: {fileID: 103455233}
+--- !u!1 &1999666462
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1000011289420168, guid: 84ef5c355eeae4fffacf271f424e108d,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1999666471}
+  - component: {fileID: 1999666464}
+  - component: {fileID: 1999666463}
+  m_Layer: 0
+  m_Name: Filigree
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1999666463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1999666462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f88588690b8514163bbd6458e39a7f36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultJoint: {fileID: 154400, guid: 0f8d8ad2509824438bc62bab7001bbe8, type: 2}
+  trait: {fileID: 0}
+  jointChildren: []
+--- !u!114 &1999666464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1999666462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03c764efec1034814b238fefb7847705, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultJoint: {fileID: 1431751536969364, guid: 5f033fdca78c4d34d9079dccb425aa92,
+    type: 2}
+  joints: 5,22,1
+  rads: 1,3
+  angles: 0,90,30
+  length: .5,1,12
+  divs: 1
+  start: 0,0,10
+  end: -1
+  selectJoints:
+  - 0|-1|-1
+  - 0|-1|-1|-1|-1
+  - 0|-1|-1|-1|-1|-1|-1
+  Transformers:
+  - Rotation: {x: 0, y: 60, z: 0}
+    OffsetRotation: {x: 0, y: 0, z: 0}
+    SinMultiply: 0
+    SinOffsetAxialA: {x: 0, y: 0, z: 0}
+    SinOffsetAxialR: {x: 0, y: 0, z: 0}
+    SinOffsetR: {x: 0, y: 0, z: 0}
+    SinFrequencyR: {x: 0, y: 0, z: 0}
+    SinSpeedR: {x: 0, y: 0, z: 0}
+    SinMultiplyR: {x: 0, y: 0, z: 0}
+    SinUniformScale: 1
+    Scale: 1
+    ScaleXY: {x: 0, y: 0, z: 0}
+    SinScaleMult: 0
+    SinOffsetFromRootOffset: {x: 0, y: 0, z: 0}
+    SinOffsetS: {x: 0, y: 0, z: 0}
+    SinFrequencyS: {x: 0.6, y: 0, z: 0}
+    SinSpeedS: {x: 0, y: 0, z: 0}
+    SinMultiplyS: {x: 0.3, y: 0, z: 0}
+    NoiseJointMultiply: 0
+    NoiseRootOffset: {x: 0, y: 0, z: 0}
+    NoiseOffsetAxial: {x: 0, y: 0, z: 0}
+    NoiseOffset: {x: 0, y: 0, z: 0}
+    NoiseFrequency: {x: 0, y: 0, z: 0}
+    NoiseSpeed: {x: 0, y: 0, z: 0}
+    NoiseMultiply: {x: 0, y: 0, z: 0}
+    Length: 0
+    LengthMult: 0
+    SinOffsetLength: 0
+    SinFrequencyLength: 0
+    SinSpeedLength: 0
+    SinAxisOffsetLength: 0
+    SinRootOffsetLength: 0
+    SinMultiplyLength: 0
+    LengthColorMult: 0
+    SinOffsetColor: 0
+    SinFrequencyColor: 0
+    SinSpeedColor: 0
+    SinAxisOffsetColor: 0
+    SinRootOffsetColor: 0
+    SinMultiplyColor: 0
+    SinColor: {r: 0, g: 0, b: 0, a: 1}
+  - Rotation: {x: 0, y: 0, z: 1}
+    OffsetRotation: {x: 0, y: 0, z: 0}
+    SinMultiply: 2
+    SinOffsetAxialA: {x: 0, y: 0, z: 0}
+    SinOffsetAxialR: {x: 0, y: 0, z: 1.2}
+    SinOffsetR: {x: 0, y: 0, z: 0}
+    SinFrequencyR: {x: 0, y: 0, z: 0.25}
+    SinSpeedR: {x: 0, y: 0, z: -1}
+    SinMultiplyR: {x: 0, y: 0, z: 12}
+    SinUniformScale: 0
+    Scale: 0.9
+    ScaleXY: {x: 0, y: 0, z: 0}
+    SinScaleMult: 0
+    SinOffsetFromRootOffset: {x: 0, y: 0, z: 0}
+    SinOffsetS: {x: 0, y: 0, z: 0}
+    SinFrequencyS: {x: 0, y: 0, z: 0}
+    SinSpeedS: {x: 0, y: 0, z: 0}
+    SinMultiplyS: {x: 0, y: 0, z: 0}
+    NoiseJointMultiply: 0
+    NoiseRootOffset: {x: 0, y: 0, z: 0}
+    NoiseOffsetAxial: {x: 0, y: 0, z: 0}
+    NoiseOffset: {x: 0, y: 0, z: 0}
+    NoiseFrequency: {x: 0, y: 0, z: 0}
+    NoiseSpeed: {x: 0, y: 0, z: 0}
+    NoiseMultiply: {x: 0, y: 0, z: 0}
+    Length: 0
+    LengthMult: 0
+    SinOffsetLength: 0
+    SinFrequencyLength: 0
+    SinSpeedLength: 0
+    SinAxisOffsetLength: 0
+    SinRootOffsetLength: 0
+    SinMultiplyLength: 0
+    LengthColorMult: 0.1
+    SinOffsetColor: 0.1
+    SinFrequencyColor: 0.002
+    SinSpeedColor: 0.3
+    SinAxisOffsetColor: 0
+    SinRootOffsetColor: 0
+    SinMultiplyColor: 0
+    SinColor: {r: 1, g: 1, b: 1, a: 0.34117648}
+  - Rotation: {x: 0, y: 0, z: 0}
+    OffsetRotation: {x: 0, y: 0, z: 0}
+    SinMultiply: 0
+    SinOffsetAxialA: {x: 0, y: 0, z: 0}
+    SinOffsetAxialR: {x: 0, y: 0, z: 0}
+    SinOffsetR: {x: 0, y: 0, z: 0}
+    SinFrequencyR: {x: 0, y: 0, z: 0}
+    SinSpeedR: {x: 0, y: 0, z: 0}
+    SinMultiplyR: {x: 0, y: 0, z: 0}
+    SinUniformScale: 0
+    Scale: 0.2
+    ScaleXY: {x: 0, y: 0, z: 0}
+    SinScaleMult: 0
+    SinOffsetFromRootOffset: {x: 0, y: 0, z: 0}
+    SinOffsetS: {x: 0, y: 0, z: 0}
+    SinFrequencyS: {x: 0, y: 0, z: 0}
+    SinSpeedS: {x: 0, y: 0, z: 0}
+    SinMultiplyS: {x: 0, y: 0, z: 0}
+    NoiseJointMultiply: 0
+    NoiseRootOffset: {x: 0, y: 0, z: 0}
+    NoiseOffsetAxial: {x: 0, y: 0, z: 0}
+    NoiseOffset: {x: 0, y: 0, z: 0}
+    NoiseFrequency: {x: 0, y: 0, z: 0}
+    NoiseSpeed: {x: 0, y: 0, z: 0}
+    NoiseMultiply: {x: 0, y: 0, z: 0}
+    Length: 0
+    LengthMult: 0
+    SinOffsetLength: 0
+    SinFrequencyLength: 0
+    SinSpeedLength: 0
+    SinAxisOffsetLength: 0
+    SinRootOffsetLength: 0
+    SinMultiplyLength: 0
+    LengthColorMult: 0
+    SinOffsetColor: 0
+    SinFrequencyColor: 0
+    SinSpeedColor: 0
+    SinAxisOffsetColor: 0
+    SinRootOffsetColor: 0
+    SinMultiplyColor: 0
+    SinColor: {r: 0, g: 0, b: 0, a: 1}
+  transformJoints:
+  - sus:1,smsx:.3,sfsx:.6,ry:60
+  - sMult:2,ssrz:-1,rz:1,scale:.9,smrz:12,sfrz:.25,srorz:1.2
+  - scale:.2
+  animate: 1
+  timeScale: 1
+  reSetupXform: 1
+  rebuildTree: 1
+--- !u!4 &1999666471
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4000011830175196, guid: 84ef5c355eeae4fffacf271f424e108d,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1999666462}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2080319387
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2080319389}
+  - component: {fileID: 2080319388}
+  - component: {fileID: 2080319390}
+  m_Layer: 0
+  m_Name: SnowFlake
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &2080319388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2080319387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03c764efec1034814b238fefb7847705, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultJoint: {fileID: 154400, guid: 0f8d8ad2509824438bc62bab7001bbe8, type: 2}
+  joints: 2,2,8
+  rads: 6,2,2
+  angles: 90,30,40
+  length: 8,4,4
+  divs: 1,1
+  start: 0,0
+  end: -1,-1
+  selectJoints:
+  - 0|-1|-1|-1|-1
+  - 0|-1|0
+  - 0|-1|-1|-1|0
+  - 0|-1|-1|-1|-1|-1|-1
+  Transformers:
+  - Rotation: {x: 0, y: 0, z: 0}
+    OffsetRotation: {x: 0, y: 0, z: 0}
+    SinMultiply: 0
+    SinOffsetAxialA: {x: 0, y: 0, z: 0}
+    SinOffsetAxialR: {x: 0, y: 0, z: 0}
+    SinOffsetR: {x: 0, y: 0, z: 0}
+    SinFrequencyR: {x: 0, y: 0, z: 0}
+    SinSpeedR: {x: 0, y: 0, z: 0}
+    SinMultiplyR: {x: 0, y: 0, z: 0}
+    SinUniformScale: 0
+    Scale: 0.9
+    ScaleXY: {x: 0, y: 0, z: 0}
+    SinScaleMult: 0
+    SinOffsetFromRootOffset: {x: 0, y: 0, z: 0}
+    SinOffsetS: {x: 0, y: 0, z: 0}
+    SinFrequencyS: {x: 0, y: 0, z: 0}
+    SinSpeedS: {x: 0, y: 0, z: 0}
+    SinMultiplyS: {x: 0, y: 0, z: 0}
+    NoiseJointMultiply: 10
+    NoiseRootOffset: {x: 0.05, y: 0, z: 0}
+    NoiseOffsetAxial: {x: 0, y: 0, z: 0}
+    NoiseOffset: {x: 0, y: 0, z: 0}
+    NoiseFrequency: {x: 0.1, y: 0, z: 0}
+    NoiseSpeed: {x: 0.5, y: 0, z: 0}
+    NoiseMultiply: {x: 0.3, y: 0, z: 0}
+    Length: 0
+    LengthMult: 0
+    SinOffsetLength: 0
+    SinFrequencyLength: 0
+    SinSpeedLength: 0
+    SinAxisOffsetLength: 0
+    SinRootOffsetLength: 0
+    SinMultiplyLength: 0
+    LengthColorMult: 0
+    SinOffsetColor: 0
+    SinFrequencyColor: 0
+    SinSpeedColor: 0
+    SinAxisOffsetColor: 0
+    SinRootOffsetColor: 0
+    SinMultiplyColor: 0
+    SinColor: {r: 0, g: 0, b: 0, a: 1}
+  - Rotation: {x: 90, y: 0, z: 0}
+    OffsetRotation: {x: 0, y: 0, z: 0}
+    SinMultiply: 0
+    SinOffsetAxialA: {x: 0, y: 0, z: 0}
+    SinOffsetAxialR: {x: 0, y: 0, z: 0}
+    SinOffsetR: {x: 0, y: 0, z: 0}
+    SinFrequencyR: {x: 0, y: 0, z: 0}
+    SinSpeedR: {x: 0, y: 0, z: 0}
+    SinMultiplyR: {x: 0, y: 0, z: 0}
+    SinUniformScale: 0
+    Scale: 0.95
+    ScaleXY: {x: 0, y: 0, z: 0}
+    SinScaleMult: 0
+    SinOffsetFromRootOffset: {x: 0, y: 0, z: 0}
+    SinOffsetS: {x: 0, y: 0, z: 0}
+    SinFrequencyS: {x: 0, y: 0, z: 0}
+    SinSpeedS: {x: 0, y: 0, z: 0}
+    SinMultiplyS: {x: 0, y: 0, z: 0}
+    NoiseJointMultiply: 2
+    NoiseRootOffset: {x: 0, y: 0, z: 0}
+    NoiseOffsetAxial: {x: 0, y: 0, z: 0}
+    NoiseOffset: {x: 0, y: 0, z: 0}
+    NoiseFrequency: {x: 0.1, y: 0, z: 0}
+    NoiseSpeed: {x: 0.5, y: 0, z: 0}
+    NoiseMultiply: {x: 1, y: 0, z: 0}
+    Length: 0
+    LengthMult: 0
+    SinOffsetLength: 0
+    SinFrequencyLength: 0
+    SinSpeedLength: 0
+    SinAxisOffsetLength: 0
+    SinRootOffsetLength: 0
+    SinMultiplyLength: 0
+    LengthColorMult: 0
+    SinOffsetColor: 0
+    SinFrequencyColor: 0
+    SinSpeedColor: 0
+    SinAxisOffsetColor: 0
+    SinRootOffsetColor: 0
+    SinMultiplyColor: 0
+    SinColor: {r: 0, g: 0, b: 0, a: 1}
+  - Rotation: {x: 0, y: 0, z: 0}
+    OffsetRotation: {x: 0, y: 0, z: 0}
+    SinMultiply: 10
+    SinOffsetAxialA: {x: 0, y: 0, z: 0}
+    SinOffsetAxialR: {x: 0, y: 0, z: 0.23}
+    SinOffsetR: {x: 0, y: 0, z: 0}
+    SinFrequencyR: {x: 0, y: 0, z: 1}
+    SinSpeedR: {x: 0, y: 0, z: 0}
+    SinMultiplyR: {x: 0, y: 0, z: 30}
+    SinUniformScale: 0
+    Scale: 1
+    ScaleXY: {x: 0, y: 0, z: 0}
+    SinScaleMult: 0
+    SinOffsetFromRootOffset: {x: 0, y: 0, z: 0}
+    SinOffsetS: {x: 0, y: 0, z: 0}
+    SinFrequencyS: {x: 0, y: 0, z: 0}
+    SinSpeedS: {x: 0, y: 0, z: 0}
+    SinMultiplyS: {x: 0, y: 0, z: 0}
+    NoiseJointMultiply: 0
+    NoiseRootOffset: {x: 0, y: 0, z: 0}
+    NoiseOffsetAxial: {x: 0, y: 0, z: 0}
+    NoiseOffset: {x: 0, y: 0, z: 0}
+    NoiseFrequency: {x: 0, y: 0, z: 0}
+    NoiseSpeed: {x: 0, y: 0, z: 0}
+    NoiseMultiply: {x: 0, y: 0, z: 0}
+    Length: 0
+    LengthMult: 0
+    SinOffsetLength: 0
+    SinFrequencyLength: 0
+    SinSpeedLength: 0
+    SinAxisOffsetLength: 0
+    SinRootOffsetLength: 0
+    SinMultiplyLength: 0
+    LengthColorMult: 0
+    SinOffsetColor: 0
+    SinFrequencyColor: 0
+    SinSpeedColor: 0
+    SinAxisOffsetColor: 0
+    SinRootOffsetColor: 0
+    SinMultiplyColor: 0
+    SinColor: {r: 0, g: 0, b: 0, a: 1}
+  - Rotation: {x: 0, y: 0, z: 10}
+    OffsetRotation: {x: 0, y: 0, z: 0}
+    SinMultiply: 0
+    SinOffsetAxialA: {x: 0, y: 0, z: 0}
+    SinOffsetAxialR: {x: 0, y: 0, z: 33.3}
+    SinOffsetR: {x: 0, y: 0, z: 0}
+    SinFrequencyR: {x: 0, y: 0, z: 0.1}
+    SinSpeedR: {x: 0, y: 0, z: 1}
+    SinMultiplyR: {x: 0, y: 0, z: 10}
+    SinUniformScale: 0
+    Scale: 0.9
+    ScaleXY: {x: 0, y: 0, z: 0}
+    SinScaleMult: 0
+    SinOffsetFromRootOffset: {x: 0, y: 0, z: 0}
+    SinOffsetS: {x: 0, y: 0, z: 0}
+    SinFrequencyS: {x: 0, y: 0, z: 0}
+    SinSpeedS: {x: 0, y: 0, z: 0}
+    SinMultiplyS: {x: 0, y: 0, z: 0}
+    NoiseJointMultiply: 0
+    NoiseRootOffset: {x: 0, y: 0, z: 0}
+    NoiseOffsetAxial: {x: 0, y: 0, z: 0}
+    NoiseOffset: {x: 0, y: 0, z: 0}
+    NoiseFrequency: {x: 0, y: 0, z: 0}
+    NoiseSpeed: {x: 0, y: 0, z: 0}
+    NoiseMultiply: {x: 0, y: 0, z: 0}
+    Length: 0
+    LengthMult: 0
+    SinOffsetLength: 0
+    SinFrequencyLength: 0
+    SinSpeedLength: 0
+    SinAxisOffsetLength: 0
+    SinRootOffsetLength: 0
+    SinMultiplyLength: 0
+    LengthColorMult: 0
+    SinOffsetColor: 0
+    SinFrequencyColor: 0
+    SinSpeedColor: 0
+    SinAxisOffsetColor: 0
+    SinRootOffsetColor: 0
+    SinMultiplyColor: 0
+    SinColor: {r: 0, g: 0, b: 0, a: 1}
+  transformJoints:
+  - nMult:10,nfrx:.1,nsrx:.5,nmrx:.3,norx:0,scale:.9,nrorx:.05
+  - scale:.95,nfrx:.1,nsrx:.5,nmrx:1,nMult:2,rx:90
+  - sMult:10,sfrz:1,smrz:30,ssrz:0,srorz:.23
+  - rz:10,scale:.9,srorz:33.3,ssrz:1,smrz:10,sfrz:.1
+  animate: 1
+  timeScale: 1
+  reSetupXform: 1
+  rebuildTree: 1
+--- !u!4 &2080319389
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2080319387}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &2080319390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2080319387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f88588690b8514163bbd6458e39a7f36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultJoint: {fileID: 154400, guid: 0f8d8ad2509824438bc62bab7001bbe8, type: 2}
+  trait: {fileID: 0}
+  jointChildren: []
