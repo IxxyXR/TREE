@@ -12,10 +12,10 @@ public class MakeTreeEditor : MonoBehaviour
         public override void OnInspectorGUI()
         {
             DrawDefaultInspector();
-            if (GUILayout.Button("Convert"))
+            if (GUILayout.Button("Convert Legacy Joints"))
             {
                 var t = target as MakeTree;
-                t.Transformers = TREEUtils.ConvertTransformers(t.transformJoints).ToList();
+                t.Transformers = TREEUtils.ConvertTransformers(t.LegacytransformJoints).ToList();
             }
         }
     }

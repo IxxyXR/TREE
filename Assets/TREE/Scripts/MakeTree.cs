@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.Serialization;
 
 namespace TREESharp {
 	
@@ -20,7 +21,9 @@ public class MakeTree : MonoBehaviour {
 
 	public string[] selectJoints;
 	public List<Transformer> Transformers;
-	public string[] transformJoints;
+	
+	[FormerlySerializedAs ("transformJoints")]
+	public string[] LegacytransformJoints;
 
 	public bool animate = true;
 
