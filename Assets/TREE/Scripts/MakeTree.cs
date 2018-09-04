@@ -11,19 +11,34 @@ public class MakeTree : MonoBehaviour {
 	public GameObject defaultJoint;
 	public TreeTransform xForm { get; set; }
 
+	[Tooltip("The number of joints on a particular branch layer ")]
 	public string joints = "10";
-	public string rads = "1";
-	public string angles = "0";
-	public string length = "1";
+	
+	[Tooltip("How often the branch sprouts new branches (every 1st, 2nd, 5th joint etc) ")]
 	public string divs = "1";
+
+	[Tooltip("At which joint the branch starts branching")]
 	public string start = "0";
+	
+	[Tooltip("At which joint the branch stops branching")]
 	public string end = "-1";
+	
+	[Tooltip("The angle that new branches will be rotated to ")]
+	public string angles = "0";
+	
+	[Tooltip("How long each joint on a branch is ")]
+	public string length = "1";
+	
+	[Tooltip("How many branches sprout from each joint ")]
+	public string rads = "1";
+	
+	
 
 	public string[] selectJoints;
 	public List<Transformer> Transformers;
 	
-	[FormerlySerializedAs ("transformJoints")]
-	public string[] LegacytransformJoints;
+	[FormerlySerializedAs ("LegacytransformJoints")]
+	public string[] LegacyTransformJoints;
 
 	public bool animate = true;
 

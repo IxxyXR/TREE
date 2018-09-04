@@ -15,7 +15,7 @@ public class MakeTreeEditor : MonoBehaviour
             if (GUILayout.Button("Convert Legacy Joints"))
             {
                 var t = target as MakeTree;
-                t.Transformers = TREEUtils.ConvertTransformers(t.LegacytransformJoints).ToList();
+                t.Transformers = TREEUtils.ConvertTransformers(t.LegacyTransformJoints).ToList();
             }
         }
     }
